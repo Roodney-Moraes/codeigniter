@@ -16,7 +16,14 @@ class Restrict extends CI_Controller {
         if ($this->session->userdata("user_id")) {
             // CRIAR UM ARRAY PARA CARREGAR OS SCRIPTS
             $data = array(
+                "styles" => array(
+                    "dataTables.bootstrap.min.css",
+                    "datatables.min.css"
+                ),
                 "scripts" => array(
+                    "sweetalert2.js",
+                    "dataTables.bootstrap.min.js",
+                    "datatables.js",
                     "util.js",
                     "restrict.js"
                 ),
