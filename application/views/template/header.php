@@ -7,8 +7,8 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<link rel="icon" href="favicon.ico">
-		<title>Lattes - Onepage Multipurpose Bootstrap HTML</title>
+		<link rel="icon" href="<?php base_url();?>public/images/favicon.png">
+		<title>Avengers</title>
 		<!-- Bootstrap core CSS -->
 		<link href="<?php base_url();?>public/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

@@ -673,13 +673,11 @@ font-size: 11px;
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: rgb(192, 12, 6);
     background-color: #fff;
-    border-color: #1b1b1b;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
-    color: rgb(192, 12, 6);
-    background-color: #fff;
-    border-color: #1b1b1b;
+    color: #fff;
+    background-color: rgb(192, 12, 6);
 }
 
 .btn {
@@ -769,4 +767,13 @@ and (max-width : 480px) {
 
 .login {
     min-height: calc(100vh - 83px);
+}
+
+.img_size {
+    max-height: 400px;
+    width: 100%;
+}
+
+.esconder {
+    display: none !important;
 }
